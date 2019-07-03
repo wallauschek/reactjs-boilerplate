@@ -1,8 +1,18 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+
+import TechList from "./components/TechList";
+
+import "./App.css";
+
+import image from "./assets/Flying.jpg";
 
 function App() {
-  return <h1>Hello RocketSeat</h1>;
+  return (
+    <div>
+      <TechList />
+      <img src={image} />
+    </div>
+  );
 }
 
 export default App;
